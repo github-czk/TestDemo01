@@ -7,7 +7,8 @@ public class JdbcUtilsTest {
     * */
     public boolean login(String name,String password){
         if(name==null ||password==null){
-            return  false;
+            return  true;
+
         }
          return true;
     }
